@@ -1,0 +1,37 @@
+{
+    "name": "vadimpalgov/yii2-otp",
+    "description": "Otp code plugin for yii2",
+    "keywords": ["yii2","extension","otp"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vadim Palgov",
+            "email": "v.palgov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vadimpalgov\\yii2otp\\": "src"
+        }
+    },
+    "require": {
+        "fabriziocaldarelli/yii2-vueapp-axios": "@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-coding-standards": "~2.0",
+        "phpunit/phpunit": "<7"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
